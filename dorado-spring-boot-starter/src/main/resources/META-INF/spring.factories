@@ -1,0 +1,11 @@
+# Initializers
+
+# Application Listeners
+
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+org.xobo.dorado.autoconfigure.DoradoPreloadSpringApplicationRunListener
+
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.xobo.dorado.autoconfigure.DoradoAutoConfiguration

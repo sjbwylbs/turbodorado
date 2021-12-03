@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewConfig>
+  <Model>
+    <DataType name="dataType1">
+      <PropertyDef name="id"/>
+      <Reference name="reference1">
+        <Property name="parameter">$${this.id}</Property>
+      </Reference>
+    </DataType>
+  </Model>
+  <View>
+    <Property name="title">HelloWorld</Property>
+    <Label>
+      <Property name="text">Hello ${envs['spring.application.name']}!</Property>
+    </Label>
+    <ToolBar layoutConstraint="bottom">
+      <ToolBarButton>
+        <Property name="caption">Hello</Property>
+      </ToolBarButton>
+      <Fill/>
+    </ToolBar>
+  </View>
+</ViewConfig>
