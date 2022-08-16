@@ -1,4 +1,4 @@
-package org.xobo.dorado.trubo.core.service;
+package org.xobo.dorado.turbo.core.service;
 
 import java.util.Collection;
 import com.bstek.dorado.data.provider.Criteria;
