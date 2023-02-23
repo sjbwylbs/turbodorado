@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.boot.version>2.6.1</spring.boot.version>
+		<spring.boot.version>2.6.6</spring.boot.version>
 		<dorado.version>7.6.1-SNAPSHOT</dorado.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
